@@ -1,0 +1,12 @@
+#amara jodi kono variable ar name change korte chai define() ata use korte pari
+$name = "hasan";
+define('names',   'name');
+echo "name is" . ${names};//name is hasan
+
+
+#amra jodi array ar key name change korte chai 
+define('MY_PRE_PRICE', "pre_price");
+$data = [
+    'pre_price' => 1200
+];
+echo $data[MY_PRE_PRICE];//1200
